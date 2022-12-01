@@ -24,20 +24,30 @@ limitations under the License.
 
 > Student's t distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-t
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import t from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { T, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@deno/mod.js';
+var t = require( '@stdlib/stats-base-dists-t' );
 ```
 
 #### t
@@ -97,7 +107,7 @@ The namespace contains a constructor function for creating a [Student's t][t-dis
 <!-- </toc> -->
 
 ```javascript
-var T = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t' ).T;
+var T = require( '@stdlib/stats-base-dists-t' ).T;
 
 var dist = new T( 2.0 );
 
@@ -118,8 +128,8 @@ var y = dist.cdf( 0.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import t from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var t = require( '@stdlib/stats-base-dists-t' );
 
 console.log( objectKeys( t ) );
 ```
@@ -145,7 +155,7 @@ console.log( objectKeys( t ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -209,33 +219,33 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/t/ctor]: https://github.com/stdlib-js/stats-base-dists-t-ctor/tree/deno
+[@stdlib/stats/base/dists/t/ctor]: https://github.com/stdlib-js/stats-base-dists-t-ctor
 
-[@stdlib/stats/base/dists/t/entropy]: https://github.com/stdlib-js/stats-base-dists-t-entropy/tree/deno
+[@stdlib/stats/base/dists/t/entropy]: https://github.com/stdlib-js/stats-base-dists-t-entropy
 
-[@stdlib/stats/base/dists/t/kurtosis]: https://github.com/stdlib-js/stats-base-dists-t-kurtosis/tree/deno
+[@stdlib/stats/base/dists/t/kurtosis]: https://github.com/stdlib-js/stats-base-dists-t-kurtosis
 
-[@stdlib/stats/base/dists/t/mean]: https://github.com/stdlib-js/stats-base-dists-t-mean/tree/deno
+[@stdlib/stats/base/dists/t/mean]: https://github.com/stdlib-js/stats-base-dists-t-mean
 
-[@stdlib/stats/base/dists/t/median]: https://github.com/stdlib-js/stats-base-dists-t-median/tree/deno
+[@stdlib/stats/base/dists/t/median]: https://github.com/stdlib-js/stats-base-dists-t-median
 
-[@stdlib/stats/base/dists/t/mode]: https://github.com/stdlib-js/stats-base-dists-t-mode/tree/deno
+[@stdlib/stats/base/dists/t/mode]: https://github.com/stdlib-js/stats-base-dists-t-mode
 
-[@stdlib/stats/base/dists/t/skewness]: https://github.com/stdlib-js/stats-base-dists-t-skewness/tree/deno
+[@stdlib/stats/base/dists/t/skewness]: https://github.com/stdlib-js/stats-base-dists-t-skewness
 
-[@stdlib/stats/base/dists/t/stdev]: https://github.com/stdlib-js/stats-base-dists-t-stdev/tree/deno
+[@stdlib/stats/base/dists/t/stdev]: https://github.com/stdlib-js/stats-base-dists-t-stdev
 
-[@stdlib/stats/base/dists/t/variance]: https://github.com/stdlib-js/stats-base-dists-t-variance/tree/deno
+[@stdlib/stats/base/dists/t/variance]: https://github.com/stdlib-js/stats-base-dists-t-variance
 
-[@stdlib/stats/base/dists/t/cdf]: https://github.com/stdlib-js/stats-base-dists-t-cdf/tree/deno
+[@stdlib/stats/base/dists/t/cdf]: https://github.com/stdlib-js/stats-base-dists-t-cdf
 
-[@stdlib/stats/base/dists/t/logcdf]: https://github.com/stdlib-js/stats-base-dists-t-logcdf/tree/deno
+[@stdlib/stats/base/dists/t/logcdf]: https://github.com/stdlib-js/stats-base-dists-t-logcdf
 
-[@stdlib/stats/base/dists/t/logpdf]: https://github.com/stdlib-js/stats-base-dists-t-logpdf/tree/deno
+[@stdlib/stats/base/dists/t/logpdf]: https://github.com/stdlib-js/stats-base-dists-t-logpdf
 
-[@stdlib/stats/base/dists/t/pdf]: https://github.com/stdlib-js/stats-base-dists-t-pdf/tree/deno
+[@stdlib/stats/base/dists/t/pdf]: https://github.com/stdlib-js/stats-base-dists-t-pdf
 
-[@stdlib/stats/base/dists/t/quantile]: https://github.com/stdlib-js/stats-base-dists-t-quantile/tree/deno
+[@stdlib/stats/base/dists/t/quantile]: https://github.com/stdlib-js/stats-base-dists-t-quantile
 
 <!-- </toc-links> -->
 
