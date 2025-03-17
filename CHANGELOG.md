@@ -4,9 +4,273 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-03-17)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="stats-base-dists-t-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/t/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6a2b590`](https://github.com/stdlib-js/stdlib/commit/6a2b590b118fef59a3e3a9e40854973d02a8b8fc) - add C implementation for `stats/base/dists/t/kurtosis` [(#3905)](https://github.com/stdlib-js/stdlib/pull/3905)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3871](https://github.com/stdlib-js/stdlib/issues/3871)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/t/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/logpdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ad7c388`](https://github.com/stdlib-js/stdlib/commit/ad7c3880af37bccd159b6623f92d4b0212eaf0db) - add C implementation for `stats/base/dists/t/logpdf` [(#3934)](https://github.com/stdlib-js/stdlib/pull/3934)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3873](https://github.com/stdlib-js/stdlib/issues/3873)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/t/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`03494c2`](https://github.com/stdlib-js/stdlib/commit/03494c2d20c88a2ab68fdd9fbf79c396e1885440) - add C implementation for `stats/base/dists/t/mean` [(#3922)](https://github.com/stdlib-js/stdlib/pull/3922)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3874](https://github.com/stdlib-js/stdlib/issues/3874)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/t/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3736294`](https://github.com/stdlib-js/stdlib/commit/373629481f148dd502a1ee4502c8748a470c1946) - add C implementation for `stats/base/dists/t/mode` [(#3913)](https://github.com/stdlib-js/stdlib/pull/3913)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3876](https://github.com/stdlib-js/stdlib/issues/3876)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/t/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e661ffe`](https://github.com/stdlib-js/stdlib/commit/e661ffe97297b6876bbc2c8bb89cd6a3e25d3fbd) - add C implementation for `stats/base/dists/t/skewness` [(#3920)](https://github.com/stdlib-js/stdlib/pull/3920)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3879](https://github.com/stdlib-js/stdlib/issues/3879)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-t-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/t/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/t/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`94aa4aa`](https://github.com/stdlib-js/stdlib/commit/94aa4aafa4f6e98f8e51285daa212e1402254b10) - add C implementation for `stats/base/dists/t/stdev` [(#3923)](https://github.com/stdlib-js/stdlib/pull/3923)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 6 issues were closed in this release:
+
+[#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Aadish Jain
+-   Aayush Khanna
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`25d7bde`](https://github.com/stdlib-js/stdlib/commit/25d7bde2ce5093d6ce2168c5cce57df6ecd70f14) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
+-   [`8a5caba`](https://github.com/stdlib-js/stdlib/commit/8a5caba090beccf502d1d66e31e5c7986dc52e3a) - **docs:** update related packages sections [(#4739)](https://github.com/stdlib-js/stdlib/pull/4739) _(by stdlib-bot)_
+-   [`998c1be`](https://github.com/stdlib-js/stdlib/commit/998c1be8630c1efcf19beefda88181db820d1dcb) - **chore:** remove EPS addition and directly draw from desired distribution _(by Philipp Burckhardt)_
+-   [`1d5aa47`](https://github.com/stdlib-js/stdlib/commit/1d5aa47204c258b674d3db4aec92fbd2475e5ea7) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
+-   [`3736294`](https://github.com/stdlib-js/stdlib/commit/373629481f148dd502a1ee4502c8748a470c1946) - **feat:** add C implementation for `stats/base/dists/t/mode` [(#3913)](https://github.com/stdlib-js/stdlib/pull/3913) _(by Aadish Jain)_
+-   [`ed5c4cc`](https://github.com/stdlib-js/stdlib/commit/ed5c4cccc06ad98f4de90310bf24a5a373761b43) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`318f280`](https://github.com/stdlib-js/stdlib/commit/318f28057bf00d910a656c4f315b8de17f89d3b5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`6a2b590`](https://github.com/stdlib-js/stdlib/commit/6a2b590b118fef59a3e3a9e40854973d02a8b8fc) - **feat:** add C implementation for `stats/base/dists/t/kurtosis` [(#3905)](https://github.com/stdlib-js/stdlib/pull/3905) _(by Aayush Khanna, aayush0325)_
+-   [`ad7c388`](https://github.com/stdlib-js/stdlib/commit/ad7c3880af37bccd159b6623f92d4b0212eaf0db) - **feat:** add C implementation for `stats/base/dists/t/logpdf` [(#3934)](https://github.com/stdlib-js/stdlib/pull/3934) _(by Aadish Jain, Philipp Burckhardt)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+-   [`03494c2`](https://github.com/stdlib-js/stdlib/commit/03494c2d20c88a2ab68fdd9fbf79c396e1885440) - **feat:** add C implementation for `stats/base/dists/t/mean` [(#3922)](https://github.com/stdlib-js/stdlib/pull/3922) _(by Aadish Jain, Philipp Burckhardt)_
+-   [`94aa4aa`](https://github.com/stdlib-js/stdlib/commit/94aa4aafa4f6e98f8e51285daa212e1402254b10) - **feat:** add C implementation for `stats/base/dists/t/stdev` [(#3923)](https://github.com/stdlib-js/stdlib/pull/3923) _(by Aayush Khanna, stdlib-bot)_
+-   [`e661ffe`](https://github.com/stdlib-js/stdlib/commit/e661ffe97297b6876bbc2c8bb89cd6a3e25d3fbd) - **feat:** add C implementation for `stats/base/dists/t/skewness` [(#3920)](https://github.com/stdlib-js/stdlib/pull/3920) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
