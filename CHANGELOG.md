@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-25)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
 ### Features
 
+-   [`a58d208`](https://github.com/stdlib-js/stdlib/commit/a58d208ba0b0257dd401adf92d01a6fdde0d2a21) - add C implementation for `stats/base/dists/t/median` [(#3914)](https://github.com/stdlib-js/stdlib/pull/3914)
+-   [`9e54cc2`](https://github.com/stdlib-js/stdlib/commit/9e54cc27d2e2e7e986b93b7be2d37f9fb4bc3b5d) - add C implementation for `stats/base/dists/t/variance` [(#3912)](https://github.com/stdlib-js/stdlib/pull/3912)
 -   [`6e75319`](https://github.com/stdlib-js/stdlib/commit/6e753199b156b41bd0cc33f70d535e77988d976c) - add C imlpementation for `stats/base/dists/t/entropy` [(#3928)](https://github.com/stdlib-js/stdlib/pull/3928)
 -   [`8523abf`](https://github.com/stdlib-js/stdlib/commit/8523abfa3aa131b1acce67658c71505b226473c2) - add C implementation for `stats/base/dists/t/pdf` [(#3940)](https://github.com/stdlib-js/stdlib/pull/3940)
 -   [`3736294`](https://github.com/stdlib-js/stdlib/commit/373629481f148dd502a1ee4502c8748a470c1946) - add C implementation for `stats/base/dists/t/mode` [(#3913)](https://github.com/stdlib-js/stdlib/pull/3913)
@@ -27,9 +29,9 @@
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 10 issues were closed in this release:
 
-[#3870](https://github.com/stdlib-js/stdlib/issues/3870), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3877](https://github.com/stdlib-js/stdlib/issues/3877), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880)
+[#3870](https://github.com/stdlib-js/stdlib/issues/3870), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3875](https://github.com/stdlib-js/stdlib/issues/3875), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3877](https://github.com/stdlib-js/stdlib/issues/3877), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880), [#3881](https://github.com/stdlib-js/stdlib/issues/3881)
 
 </section>
 
@@ -41,6 +43,22 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`4589cee`](https://github.com/stdlib-js/stdlib/commit/4589cee4e69b2a4c4a433321f413824a69eebb6e) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`776887e`](https://github.com/stdlib-js/stdlib/commit/776887e9577ae2402fd69c97328cb864811bd120) - **docs:** update annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`321490b`](https://github.com/stdlib-js/stdlib/commit/321490b2c4b3de26ca049685f433230a75d648ed) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
+-   [`a58d208`](https://github.com/stdlib-js/stdlib/commit/a58d208ba0b0257dd401adf92d01a6fdde0d2a21) - **feat:** add C implementation for `stats/base/dists/t/median` [(#3914)](https://github.com/stdlib-js/stdlib/pull/3914) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
+-   [`b46839a`](https://github.com/stdlib-js/stdlib/commit/b46839a757385ec10d3056643983776678239fe4) - **chore:** remove trailing spaces _(by Philipp Burckhardt)_
+-   [`6df3667`](https://github.com/stdlib-js/stdlib/commit/6df366771b3a460e20c2ac2bb3dafbf7f267e785) - **test:** move require to module scope _(by Philipp Burckhardt)_
+-   [`9e54cc2`](https://github.com/stdlib-js/stdlib/commit/9e54cc27d2e2e7e986b93b7be2d37f9fb4bc3b5d) - **feat:** add C implementation for `stats/base/dists/t/variance` [(#3912)](https://github.com/stdlib-js/stdlib/pull/3912) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`bbfcd3e`](https://github.com/stdlib-js/stdlib/commit/bbfcd3ee9072499e16d6baa0e13e9d2b21c4b4d0) - **docs:** update namespace table of contents [(#6809)](https://github.com/stdlib-js/stdlib/pull/6809) _(by stdlib-bot)_
 -   [`0def122`](https://github.com/stdlib-js/stdlib/commit/0def122ace01882b5b7344ac90754ea5f4375ac7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`6e75319`](https://github.com/stdlib-js/stdlib/commit/6e753199b156b41bd0cc33f70d535e77988d976c) - **feat:** add C imlpementation for `stats/base/dists/t/entropy` [(#3928)](https://github.com/stdlib-js/stdlib/pull/3928) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
