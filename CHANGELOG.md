@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-11-21)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -29,9 +29,9 @@
 
 ### Closed Issues
 
-A total of 10 issues were closed in this release:
+A total of 11 issues were closed in this release:
 
-[#3870](https://github.com/stdlib-js/stdlib/issues/3870), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3875](https://github.com/stdlib-js/stdlib/issues/3875), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3877](https://github.com/stdlib-js/stdlib/issues/3877), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880), [#3881](https://github.com/stdlib-js/stdlib/issues/3881)
+[#3870](https://github.com/stdlib-js/stdlib/issues/3870), [#3871](https://github.com/stdlib-js/stdlib/issues/3871), [#3873](https://github.com/stdlib-js/stdlib/issues/3873), [#3874](https://github.com/stdlib-js/stdlib/issues/3874), [#3875](https://github.com/stdlib-js/stdlib/issues/3875), [#3876](https://github.com/stdlib-js/stdlib/issues/3876), [#3877](https://github.com/stdlib-js/stdlib/issues/3877), [#3879](https://github.com/stdlib-js/stdlib/issues/3879), [#3880](https://github.com/stdlib-js/stdlib/issues/3880), [#3881](https://github.com/stdlib-js/stdlib/issues/3881), [#4988](https://github.com/stdlib-js/stdlib/issues/4988)
 
 </section>
 
@@ -43,6 +43,9 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`b2ded58`](https://github.com/stdlib-js/stdlib/commit/b2ded58e47be1142dc7a054df093d77feeb49bf1) - **bench:** update random value generation [(#9925)](https://github.com/stdlib-js/stdlib/pull/9925) _(by Harsh Yadav)_
+-   [`e682423`](https://github.com/stdlib-js/stdlib/commit/e6824239d2ebe1dfdc4397ab6e0da2151ac131aa) - **docs:** replace manual `for` loop in examples [(#9456)](https://github.com/stdlib-js/stdlib/pull/9456) _(by Harsh Yadav)_
+-   [`4b9e370`](https://github.com/stdlib-js/stdlib/commit/4b9e370719620bef34b850abf218d4d065e650d8) - **bench:** refactor random number generation in `stats/base/dists/t` [(#8833)](https://github.com/stdlib-js/stdlib/pull/8833) _(by Sagar Ratna Chaudhary)_
 -   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
 -   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
@@ -91,13 +94,15 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Aayush Khanna
 -   Athan Reines
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
+-   Sagar Ratna Chaudhary
 
 </section>
 
