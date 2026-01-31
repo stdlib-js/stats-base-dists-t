@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import t from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@esm/index.mjs';
+import t from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { T, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@esm/index.mjs';
+import { T, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@v0.3.0-esm/index.mjs';
 ```
 
 #### t
@@ -134,7 +134,7 @@ var y = dist.cdf( 0.5 );
 <body>
 <script type="module">
 
-import t from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@esm/index.mjs';
+import t from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t@v0.3.0-esm/index.mjs';
 
 var dof = 3;
 var x = 1.5;
