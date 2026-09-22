@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-22)
 
 <section class="commits">
 
@@ -12,6 +12,13 @@
 
 <details>
 
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
+-   [`42d3459`](https://github.com/stdlib-js/stdlib/commit/42d345944ad067d4b9db02cc05b6adb2f232b635) - **style:** add missing spaces [(#15143)](https://github.com/stdlib-js/stdlib/pull/15143) _(by Philipp Burckhardt)_
+-   [`f9a255c`](https://github.com/stdlib-js/stdlib/commit/f9a255c1b848c5cc2a5b2dd96a3c2d5f9dc90cf2) - **test:** migrate `stats/base/dists/t/cdf` to ULP-based assertions [(#15135)](https://github.com/stdlib-js/stdlib/pull/15135) _(by Aryan kumar)_
+-   [`a376ea4`](https://github.com/stdlib-js/stdlib/commit/a376ea474fed777346352a554adac8439e9cdedc) - **test:** migrate `stats/base/dists/t/logcdf` to ULP-based assertions [(#14970)](https://github.com/stdlib-js/stdlib/pull/14970) _(by Aryan kumar)_
+-   [`5826e95`](https://github.com/stdlib-js/stdlib/commit/5826e95077eec668b287c3713e759c5426a81f42) - **test:** migrate `stats/base/dists/t/logpdf` to ULP-based assertions [(#14944)](https://github.com/stdlib-js/stdlib/pull/14944) _(by Aryan kumar)_
+-   [`08dc08f`](https://github.com/stdlib-js/stdlib/commit/08dc08f7662df2bad3b6bd12eaceb277aba0ac07) - **test:** migrate `stats/base/dists/t/entropy` to ULP-based assertions [(#14946)](https://github.com/stdlib-js/stdlib/pull/14946) _(by Aryan kumar)_
+-   [`85f79e1`](https://github.com/stdlib-js/stdlib/commit/85f79e117268e3ffece94bb0abc236a4b6876259) - **test:** migrate `stats/base/dists/t/pdf` to ULP-based assertions [(#14564)](https://github.com/stdlib-js/stdlib/pull/14564) _(by Athan Reines)_
 -   [`3371e44`](https://github.com/stdlib-js/stdlib/commit/3371e4463d04c07659080c2a6dcf82898f2b7f56) - **test:** migrate `stats/base/dists/t/quantile` to ULP-based assertions [(#13847)](https://github.com/stdlib-js/stdlib/pull/13847) _(by Philipp Burckhardt)_
 -   [`1f05813`](https://github.com/stdlib-js/stdlib/commit/1f05813f67d394f9472e2ed7d0226f53b58d6b3f) - **docs:** fix note [(#12982)](https://github.com/stdlib-js/stdlib/pull/12982) _(by Philipp Burckhardt)_
 -   [`900a4e2`](https://github.com/stdlib-js/stdlib/commit/900a4e20acd9a33d8120673e2c607c280168955d) - **refactor:** rename internal variables [(#12955)](https://github.com/stdlib-js/stdlib/pull/12955) _(by Philipp Burckhardt)_
@@ -34,8 +41,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
